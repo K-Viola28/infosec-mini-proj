@@ -1,0 +1,18 @@
+# Port Checker (Python)
+
+## Description
+A beginner-friendly Python script that checks whether a specific port on a target IP address is open.
+
+## How It Works
+- The script tries to connect to a port on the IP you give it.
+- If it connects, it says "Port is OPEN"
+- If it can't connect, it says "Port is CLOSED"
+
+## Tools Used
+- Python 3.10
+- Socket library
+
+## What I Learned
+- Basics of Python
+- How network ports work
+- Using Python for simple security checks
