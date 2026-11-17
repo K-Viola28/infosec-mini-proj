@@ -32,7 +32,8 @@ def check_password_strength(password: str) -> str:
 
 def main() -> None:
     password = getpass.getpass("Enter a password to check: ")
-    strength = check_password_strength(password)
+    _ = check_password_strength(password)
+    print("Password check completed.")
 
     if strength == "Weak":
         print("Password strength: Weak")
