@@ -32,7 +32,14 @@ def check_password_strength(password: str) -> str:
 
 def main() -> None:
     password = getpass.getpass("Enter a password to check: ")
-    print(f"Password strength: {check_password_strength(password)}")
+    strength = check_password_strength(password)
+
+    if strength == "Weak":
+        print("Password strength: Weak")
+    elif strength == "Moderate":
+        print("Password strength: Moderate")
+    else:
+        print("Password strength: Strong")
 
 
 if __name__ == "__main__":
