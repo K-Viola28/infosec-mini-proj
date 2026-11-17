@@ -42,3 +42,12 @@ hashing to detect unexpected changes to files.
 - Automated security testing
 
 [View Sentinel →](./file-integrity-monitor/)
+
+### 3. Password Strength Checker
+
+A Python command-line tool that evaluates passwords by their length and
+character variety.
+
+**Technologies:** Python · Authentication · Password security
+
+[View Password Strength Checker →](./password-checker/)
